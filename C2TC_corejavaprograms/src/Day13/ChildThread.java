@@ -1,6 +1,6 @@
 package Day13;
 
-public class ChildThread {
+public class ChildThread extends Thread {
 	private int n;
 	private String msg;
 
@@ -21,5 +21,5 @@ public class ChildThread {
 			System.out.println(msg + i + " " + Thread.currentThread().getName());
 		}
 	}
-
 }
+	
